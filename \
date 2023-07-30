@@ -1,0 +1,12 @@
+#!/bin/bash
+
+function myfun(name age) {
+	local name=$name
+	local age=$age
+
+	echo My name is $name
+	echo My age is $age
+}
+
+
+myfun Monika 21
